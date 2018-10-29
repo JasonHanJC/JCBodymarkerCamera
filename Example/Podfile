@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JCBodymarkerCamera_Example' do
+  pod 'JCBodymarkerCamera', :path => '../'
+
+  target 'JCBodymarkerCamera_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
