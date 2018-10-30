@@ -315,7 +315,6 @@
     if (![[self activeCamera] hasFlash]) {
         uniqueSetting.flashMode = AVCaptureFlashModeOff;
     }
-    // AVCapturePhotoSettings *uniqueSetting = [AVCapturePhotoSettings photoSettingsFromPhotoSettings:self.outputSettings];
     [self.imageOutput capturePhotoWithSettings:uniqueSetting delegate:self];
 }
 
@@ -323,24 +322,10 @@
 - (void)captureOutput:(AVCapturePhotoOutput *)captureOutput didFinishProcessingPhotoSampleBuffer:(nullable CMSampleBufferRef)photoSampleBuffer previewPhotoSampleBuffer:(nullable CMSampleBufferRef)previewPhotoSampleBuffer resolvedSettings:(AVCaptureResolvedPhotoSettings *)resolvedSettings bracketSettings:(nullable AVCaptureBracketedStillImageSettings *)bracketSettings error:(nullable NSError *)error {
     
     NSData *data = [AVCapturePhotoOutput JPEGPhotoDataRepresentationForJPEGSampleBuffer:photoSampleBuffer previewPhotoSampleBuffer:previewPhotoSampleBuffer];
-    UIImage *image = [UIImage imageWithData:data scale:0.5];
-    
-    UIImageWriteToSavedPhotosAlbum(image, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
-    
+
     if ([self.delegate respondsToSelector:@selector(mediaCaptureSuccessWithImageData:)]) {
         [self.delegate mediaCaptureSuccessWithImageData:data];
     }
 }
-
-- (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo {
-//    NSLog(@"%@", [NSThread currentThread]);
-    if(error != NULL){
-        if ([self.delegate respondsToSelector:@selector(libraryWriteFailedWithError:)]) {
-            [self.delegate libraryWriteFailedWithError:error];
-        }
-    }
-}
-
-
 
 @end

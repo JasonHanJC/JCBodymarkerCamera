@@ -15,7 +15,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)deviceConfigurationFailedWithError:(NSError *)error;
 - (void)mediaCaptureFailedWithError:(NSError *)error;
-- (void)libraryWriteFailedWithError:(NSError *)error;
 - (void)mediaCaptureSuccessWithImageData:(NSData *)imageData;
 
 @optional

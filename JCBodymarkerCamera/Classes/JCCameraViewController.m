@@ -237,19 +237,27 @@
 #pragma mark - JCCameraControllerDelegate
 
 - (void)deviceConfigurationFailedWithError:(NSError *)error {
-    
+    if (self.failedCompletion) {
+        self.failedCompletion(error);
+    }
 }
 
 - (void)mediaCaptureFailedWithError:(NSError *)error {
-    
+    if (self.failedCompletion) {
+        self.failedCompletion(error);
+    }
 }
 
 - (void)libraryWriteFailedWithError:(NSError *)error {
-    
+    if (self.failedCompletion) {
+        self.failedCompletion(error);
+    }
 }
 
 - (void)mediaCaptureSuccessWithImageData:(NSData *)imageData {
-    // TODO: compress image to the drive
+    if (self.successedCompletion) {
+        self.successedCompletion(imageData);
+    }
 }
 
 - (void)countdownBegan {

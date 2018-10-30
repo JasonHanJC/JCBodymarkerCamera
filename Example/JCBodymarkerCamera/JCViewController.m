@@ -29,6 +29,14 @@
 
 - (IBAction)openCameraViewController_1:(id)sender {
     JCCameraViewController *cameraViewController = [[JCCameraViewController alloc] initWithBodyMarkerOption:BodyMarkerOptionFront];
+    cameraViewController.successedCompletion = ^(NSData *imageData) {
+        // it is on the main thread
+        // process your image data
+    };
+    
+    cameraViewController.failedCompletion = ^(NSError *error) {
+        
+    };
     [self presentViewController:cameraViewController animated:YES completion:nil];
     
 }
