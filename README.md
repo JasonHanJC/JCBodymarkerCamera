@@ -13,7 +13,7 @@ JCBodymarkerCamera is built for iOS 10.2 or later.
 
 ## Example
 
-![example]()
+![example](https://github.com/JasonHan1990/JCBodymarkerCamera/blob/master/ExampleImages/iPhone-20181029210452.2018-10-29%2021_27_05.gif)
 
 There are two enums to setup a camera view controller.
 
@@ -38,26 +38,26 @@ Import JCCameraViewController to your source file.
 #import "JCCameraViewController.h"
 ```
 Open the camera with front body marker.
-![example-1]()
+![example-1](https://github.com/JasonHan1990/JCBodymarkerCamera/blob/master/ExampleImages/front-marker.PNG)
 ```objc
 JCCameraViewController *cameraViewController = [[JCCameraViewController alloc] initWithBodyMarkerOption:BodyMarkerOptionFront];
 [self presentViewController:cameraViewController animated:YES completion:nil];
 ```  
 Open the camera with side body marker.
-![example-2]()
+![example-2](https://github.com/JasonHan1990/JCBodymarkerCamera/blob/master/ExampleImages/side-marker.PNG)
 ```objc
 JCCameraViewController *cameraViewController = [[JCCameraViewController alloc] initWithBodyMarkerOption:BodyMarkerOptionSide];
 [self presentViewController:cameraViewController animated:YES completion:nil];
 ```
 Open the camera with only front facing camera.
-![example-3]()
+![example-3](https://github.com/JasonHan1990/JCBodymarkerCamera/blob/master/ExampleImages/front-facing.PNG)
 ```objc
 JCCameraViewController *cameraViewController = [[JCCameraViewController alloc] init];
 cameraViewController.cameraOption = CameraOptionFrontFacingCamera;
 [self presentViewController:cameraViewController animated:YES completion:nil];
 ```
 Open the camera with only rear camera.
-![example-4]()
+![example-4](https://github.com/JasonHan1990/JCBodymarkerCamera/blob/master/ExampleImages/rear.PNG)
 ```objc
 JCCameraViewController *cameraViewController = [[JCCameraViewController alloc] init];
 cameraViewController.cameraOption = CameraOptionRearCamera;
