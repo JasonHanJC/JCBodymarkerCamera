@@ -7,72 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06B2F9DAF9E10E96BD300A32DC6438DD /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B819FB2758E06E8A269953388AB843E /* JCBodymarkerCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9293E7CEA2681E96CC00D133033618 /* JCBodymarkerCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		126CCFB9BABD532D9D09AD0BEF56A75A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5683EE05332F1E716612C156F4332D /* Images.xcassets */; };
-		17E15A565AC29DF4C2372D0ED8BF7018 /* JCControlsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C4752A820370F2D9CC475DC70BDAE01 /* JCControlsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1821E85351D22E9F1734B70BF9F7C53C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0446744A33300D8660E4BC5AD7F7338 /* Foundation.framework */; };
-		1B6D14D9A60EF9FFF47D762D430F20FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C8DD795ACDA1AAA7F409969BEB4036 /* UIKit.framework */; };
-		1C1758AC8ECA8CCA61F54B2FF2F5F45C /* JCSwitchCameraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EFEB7367568DC9B9F0E50E9D685337 /* JCSwitchCameraButton.m */; };
-		1DE4AC3C67D758736D09046DBFB949E7 /* JCCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7FA7A25DD101F4467B5961D2C3AF33 /* JCCameraViewController.m */; };
-		1E3B8AD8BD158E7A7096B17FACF6D7BB /* JCBodymarkerCameraCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = BA9B8E4A194C0D0248F3A22EC1964792 /* JCBodymarkerCameraCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		227055B73668B99AC1EF20D682BF1780 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
-		23584F0A253EEE4A30D6F5D2AED53520 /* JCCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127750E5BA18116A7E4F757CEFA3E158 /* JCCameraController.m */; };
-		32CD0CCC93C55DDEBB69599ADB15048B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEFC023848BA6CD8AC4373D487242A45 /* CoreMotion.framework */; };
-		3476E0D85DA1459E953CB5C09377C7B6 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
-		3E758D8B3B88F0FE9CCDAF04DF2D1F3C /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F69C59301D809C43DABAEB8A44B1892 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02CF553764A32B29C032A18C5D72EF32 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		065D652EFD56929B95D0EBE33BFF8785 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		075035F512080F0C572C1DC35E4CE60E /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A53D30A3B364370CC715443F9834CAA /* JCBackButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BC897066A94B5ADC8612A9656FAD23A /* JCBackButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15926BA0D2F0CA1A1B494C6089872967 /* JCBodymarkerCameraCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = CB360FDA3529250690BC35B5E539BE20 /* JCBodymarkerCameraCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C2F8EB889DD4F1BA37ECBC6C15DAB2A /* JCCameraLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = D374C2D841942EBD9541CB40113643FB /* JCCameraLevelView.m */; };
+		1F8E9EA6772023BD29336FF2B3398217 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEFC023848BA6CD8AC4373D487242A45 /* CoreMotion.framework */; };
+		2935662E3B4425AF96CBC7B49CEB7B7F /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CFD41BF5FD8D5293CC50FD16F27A251 /* JCCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = D06A3209A90C00CD4AE6D71DA4E1E650 /* JCCameraController.m */; };
+		2EBCB70AC7739CED7F98871A496B9D99 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
+		329BDD6B2797F2B7353890930F88771B /* JCCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44792049DD141A185A937B95DF5A7478 /* JCCameraViewController.m */; };
+		3B45C7A51A455F3EE72BB13AB7C14976 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C8DD795ACDA1AAA7F409969BEB4036 /* UIKit.framework */; };
+		3CBCDF7B35ADF381C8C22E5DBF95C4D4 /* JCDeviceMotionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C2F358D374F13D90026C1BC01EA0CC3 /* JCDeviceMotionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		408F332417A954E63E9368A4ADFE8127 /* Pods-JCBodymarkerCamera_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 642AF2332E0EF4B79A6F897C9076688D /* Pods-JCBodymarkerCamera_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48DCCF9DBED6843784D154F8694E2DA5 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D41FD09FA933C31EDB22E64CD732FCE /* JCCameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C57205BF442DAF155F37E04C56873F09 /* JCCameraViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DA4C794A341366B7BC40BFB13B507CA /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
-		563936806C212165251B5E7D971171FC /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE8DF4186C72A45BC9423CEE84B933D /* Masonry.framework */; };
-		581611F180C10ECC3CD6E2BBCC5F3F3B /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
-		588555F6BBF7754B669C8729396E4C09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0446744A33300D8660E4BC5AD7F7338 /* Foundation.framework */; };
+		44CF5AFFCD7DF371DF0BB19525424BE0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		49EBF7A96C697CC7A038224226EA9211 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE8DF4186C72A45BC9423CEE84B933D /* Masonry.framework */; };
+		4B4957B7815DD8C6E4F4164E3D27C948 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5349122EA288CE8C1EAA6A6DC27A9365 /* JCSwitchCameraButton.h in Headers */ = {isa = PBXBuildFile; fileRef = FAE7D6AE980C574E8E57CC196ED20F02 /* JCSwitchCameraButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5883E7567C0206687E86DA1D2FD17827 /* JCFlashButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD8AC824AFD7619AD1D3EC2C78CC0F3 /* JCFlashButton.m */; };
 		59E6A30748C5AD5FBFAA6814FF16673C /* Pods-JCBodymarkerCamera_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F1B3253D99E536D24C9EEA520B03FB8 /* Pods-JCBodymarkerCamera_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		606637566CA85B3AD050EC01C4EBA8BB /* JCCameraLevelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 98A329FDF5FD9DD7AF1FFBB48CF633DE /* JCCameraLevelView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64399C50A2514D6D8B9651B4CE9ABA92 /* JCControlsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 092EADA2C0653303078A4A4184144CC2 /* JCControlsView.m */; };
-		699F89EEC96E66FE40586CB4370F1D17 /* JCShutterButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 643EA3614934F192B7299F0C7449EFC7 /* JCShutterButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EE70A4189841FCC73D04EAB58EAF701 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		762831B8F4F34F43DB3C5ABBCD0D0891 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
-		7D39F520B43BE0D5CF97067594202967 /* JCBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D4150817AB514F0E946925829432AC57 /* JCBackButton.m */; };
-		7FD6921E75D0833E6620BBF1D84B40D2 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82C86CA1F0EFE87A68872FED6DC99D03 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
-		86097935D85054C7B70E2DA4867CDD27 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D826E4C67C6EFC6B4F28406FA0708866 /* AVFoundation.framework */; };
-		8986AE49BB1A363B38C96C5E6A7564B2 /* JCDeviceMotionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C028B3524DB9554162CAD2BE42A21C /* JCDeviceMotionController.m */; };
-		8AC25CEF27017108628DE24D3C638E31 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BAE819F7545C0D04FACCEECC97E88F6 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BBA7288E5D995C640A31B8B843855C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C8DD795ACDA1AAA7F409969BEB4036 /* UIKit.framework */; };
+		5C31695E5622CB3B0EC5E40A894B00FD /* JCCameraLevelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A0B170DD1F9DED3F6F8637647349ED /* JCCameraLevelView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E32EABF70632CFA5D30EC99AA3164AE /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FF0ED8D70F1502BA0C3701F700496A3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D826E4C67C6EFC6B4F28406FA0708866 /* AVFoundation.framework */; };
+		67A4026610321B8E218911B2A328F9B6 /* JCBodymarkerCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92AEE372E04BCD710FFC7FE7FE7CEDE1 /* JCBodymarkerCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D6B5EB36D8D012F9AE58C648ABFFC3B /* JCSwitchCameraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0940B4BDFC2DA3D22A46771D7B4A92A1 /* JCSwitchCameraButton.m */; };
+		7058E47E419B3563247A5E11EC2CA43F /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
+		71DBE3B63399583088CAA87FC8D4D8EC /* JCBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DE604AA7E2DBC586337F4CF5359BEF30 /* JCBackButton.m */; };
+		736D327F8EE636CE84E347398CA271D1 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
+		7373E9A0447878E73DD01D8F5D5CD3D8 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74ADB2002C458096F3DEDF194A479F27 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78FB19FF48072041011FC85318A1640B /* JCShutterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFB32270E2F1BCDC50722C93C24D15A /* JCShutterButton.m */; };
+		89048BDA8167E82BFD1F52FDAEEE4984 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
 		8BA37B6E958C422CF2A28558AC3FB5FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0446744A33300D8660E4BC5AD7F7338 /* Foundation.framework */; };
-		8E7A50B7F4F0FACF3FD763B3A5B1A8DA /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F1333F50DAEF1D6AEF3F369BBAAAACE /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
-		9B9C20D2A4E17D9BEE47817711F83C20 /* JCBodymarkerCamera.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA27B61CBF885ADF4570B620E8B3EB6B /* JCBodymarkerCamera.bundle */; };
-		9C0575032325977FFCA323F7F7F6E6B3 /* JCSwitchCameraButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D54F28378E0FA8EFAA4A9C8E5131DE /* JCSwitchCameraButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C5C88D9162CAA7C2129B0B29A319420 /* JCDeviceMotionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D5B0045ACA0D9C274E6871AC8C6B5B1 /* JCDeviceMotionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E27D023218014E917A7002578D23CFF /* JCPreviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CA264587A38C4231DCDA8AE4A04DBC /* JCPreviewView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FFBFEA73834F702CEBEF4ABEAA6A57A /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA61468D2E3FF9C2FB208422D236BF99 /* JCShutterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 30235AE89CB20F49CA4DB847A4A0C4CF /* JCShutterButton.m */; };
-		BF02CBAFDEC882553CEAE84ECFDC57A7 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0E39D39E0E24DF448129C7159C5F4A0 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C46DEA4314C35BE3B8CE4E7BCB674B76 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
-		C47E939E9E55767497687FE8B736980B /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9D934F3F2D32756F3C74CC3C4AA49AA /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA71033014A97C1F248A45C1667C8E85 /* JCControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E8FFA84B070D7D23858D6C6407A611 /* JCControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAAAEFAC8E7EEF102AF639E055E28CF0 /* JCCameraController.h in Headers */ = {isa = PBXBuildFile; fileRef = 31ABA8BB76CFDCF882D2218C0EDAB83E /* JCCameraController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2458F22D3900327845AA2669C7ECBD8 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D794CA54BC29B82F8DFB53B76C9A77F2 /* JCFlashButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BFEF2A73E4FA4537BCB24FD8A66164 /* JCFlashButton.m */; };
+		8F0AD5AED9D3EBD70BE02F09CC0B14D4 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93DC40EB5767717ECC65E60C57641AB6 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */; };
+		93F7F92D5365F1D7492FF9D02AD6E300 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
+		968DA98A2F2B5CDC75CA900835C8F3DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0446744A33300D8660E4BC5AD7F7338 /* Foundation.framework */; };
+		975208201383957B27C993053A07E3F9 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97D6C0C13260DFA5E195D9E3BBA22DEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		994E8407F9C78BF9744A7853AE73CC89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456572DEFB5A689E0B97AADA3C06DBA5 /* Images.xcassets */; };
+		9DB6C3447EAD1BB57F5208A8169EC384 /* JCFlashButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E2B8A359EBD57E694339071BE019CCC3 /* JCFlashButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DC448FB83B8DE4A8D0D7E862D5B7377 /* JCBodymarkerCamera.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA27B61CBF885ADF4570B620E8B3EB6B /* JCBodymarkerCamera.bundle */; };
+		9E9C9F27653079209724B8C9972BCBC8 /* JCShutterButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 15936220B009C38A977D0037971F7CB3 /* JCShutterButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6487E6D0610839991645F564E1F4F47 /* JCControlsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DDD13F33341E03A6EF15F3B0540944 /* JCControlsView.m */; };
+		A8BDFED6B8FB62D3AD585B7F6FD53E3F /* JCBodymarkerCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF37DAFFCB6C5D2955E621E78426A8 /* JCBodymarkerCamera-dummy.m */; };
+		AF1D1F7372A2124EF3FD1FD226B5EA8B /* JCControlsView.h in Headers */ = {isa = PBXBuildFile; fileRef = FBE492E50929666D2D7E77D8F914CFEF /* JCControlsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2720FFEA81679C24895D6CFFE08D997 /* JCCameraController.h in Headers */ = {isa = PBXBuildFile; fileRef = 271B7000879011C284F585A80E29B9C8 /* JCCameraController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3DF1D6717A18B23C5111558D31B8894 /* JCDeviceMotionController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13A185FE104B93D111642809012DB1E /* JCDeviceMotionController.m */; };
+		BD9414750A9C359F72F6F754DEE85E3F /* JCPreviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = B841A00CA19DCA0135728CAA1A1AFC31 /* JCPreviewView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5621DBA2466DFE1008C651E68E9C669 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6C500C94EB25E3FA0B6994A7B2F8FF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0446744A33300D8660E4BC5AD7F7338 /* Foundation.framework */; };
+		C7A74A53849315CFD365BCD51A26F83D /* JCCameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 26E9464D9D3683CC7184F543BFFDF818 /* JCCameraViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB424D7360E0C1DF0D89F43DF141F734 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8153ACC513F51345CC94404FD6798AD /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
 		D86680854E20B15EF5EAE43659FD9335 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0446744A33300D8660E4BC5AD7F7338 /* Foundation.framework */; };
-		D8C614ED91811B9B85BD06AC925895BF /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9649EF538D4FFA575C2600A8D5919E6 /* JCPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D55902B5AAF675B5F31BC607B5BA29 /* JCPreviewView.m */; };
-		DAC6BA97DE8BD2DFE3A9CD021DA6590D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C8DD795ACDA1AAA7F409969BEB4036 /* UIKit.framework */; };
 		DCD574486BA262E03D8CBA9DEB4FE52A /* Pods-JCBodymarkerCamera_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E13C1A4CB3FD2CE617FA0476C444E6 /* Pods-JCBodymarkerCamera_Tests-dummy.m */; };
-		EC1A97E4F4C95A783DDBD436FC55A1D6 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC81D0818AE4E1686BE97ACEF3409B70 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */; };
+		DD177045242060E27F06DCDB060E2286 /* JCPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE3BEE1CBEB789601160D886C2D4D5E /* JCPreviewView.m */; };
+		DD5F6A9AC03A68D6B7626CA1B64215E3 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
+		E7EFE730FBBC477BAADB44BA03C43CBF /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0676B329F9B89BA8B10B5C204EC8742 /* Pods-JCBodymarkerCamera_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C222A7081C0ACC16EDEAC70293F589D5 /* Pods-JCBodymarkerCamera_Example-dummy.m */; };
-		F44EC20BE5A9024D37D89D2BE5905BE8 /* JCFlashButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C4701949DB6D990A26611DE5ED0F4BC6 /* JCFlashButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F47523E35605176F428EE4FAB483CB16 /* JCBodymarkerCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5BCAB66AB198E663569A364019122B /* JCBodymarkerCamera-dummy.m */; };
-		FAC4D0F7FEFE1DD34A3ADB198999982C /* JCBackButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 447D9FBE7A53394DE14A00A273B6ABA8 /* JCBackButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC2414383FC6026894122A7B456AFBCE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		FC4CE6BCA6F6F9449587C4AC6D6C3CED /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
-		FCD4BE7052ED32C207802472C2DBFFEF /* JCCameraLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC31EF2A459EFAAF540D1F46076049C4 /* JCCameraLevelView.m */; };
+		F34EC02DE06162EB180EEC6FCDC8DC2D /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
+		F6D6B35FEB996BBE5CB86B31DEB2A0C8 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC55208370BAB95028CE8D702C78226C /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,28 +79,21 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 22923F7ED29587E775DD2EAF71FAF77C;
+			remoteGlobalIDString = 5FEFA572A6AF69F2911AA438F2F76CC6;
 			remoteInfo = JCBodymarkerCamera;
 		};
-		248A85A2735B165343CC943D31E7876E /* PBXContainerItemProxy */ = {
+		1821B78EEB671CCBAC32C4554BB71C38 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0102C5227DCEF507F71CB8A175EC25F8;
-			remoteInfo = "JCBodymarkerCamera-JCBodymarkerCamera";
-		};
-		72963DC3A16CEEFB7B633896ACBF2D15 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CE2445C7456C5E73DF83FF9238E0FF5E;
+			remoteGlobalIDString = F11A70710357061B1E62B9C7466EA215;
 			remoteInfo = Masonry;
 		};
 		CEC946D127CB67881C73B58F6C35F0F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CE2445C7456C5E73DF83FF9238E0FF5E;
+			remoteGlobalIDString = F11A70710357061B1E62B9C7466EA215;
 			remoteInfo = Masonry;
 		};
 		E8E846619D9606C3D8A06AF1D1F75127 /* PBXContainerItemProxy */ = {
@@ -111,6 +103,13 @@
 			remoteGlobalIDString = 4F4A1DB7F7DB7E8019C05DFBA45EFF62;
 			remoteInfo = "Pods-JCBodymarkerCamera_Example";
 		};
+		FA38A8F2FB0319BE3BAB35FCEB0FBD00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B25F9D3C3C5E502C64FDED397641411;
+			remoteInfo = "JCBodymarkerCamera-JCBodymarkerCamera";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -118,104 +117,117 @@
 		05CF9109C511E745E4FFD275243D59DD /* Pods-JCBodymarkerCamera_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCBodymarkerCamera_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0814E65066C6F9E80EA70C568FC8A11C /* Pods-JCBodymarkerCamera_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JCBodymarkerCamera_Tests.modulemap"; sourceTree = "<group>"; };
 		0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		092EADA2C0653303078A4A4184144CC2 /* JCControlsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCControlsView.m; path = JCBodymarkerCamera/Classes/JCControlsView.m; sourceTree = "<group>"; };
+		0940B4BDFC2DA3D22A46771D7B4A92A1 /* JCSwitchCameraButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCSwitchCameraButton.m; path = JCBodymarkerCamera/Classes/JCSwitchCameraButton.m; sourceTree = "<group>"; };
 		0991425FF8299571981D6A02F992BDC5 /* Pods-JCBodymarkerCamera_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCBodymarkerCamera_Tests-resources.sh"; sourceTree = "<group>"; };
-		108FBCC6E7F56827DB17922E243BBC7B /* JCBodymarkerCamera.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JCBodymarkerCamera.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		10D55902B5AAF675B5F31BC607B5BA29 /* JCPreviewView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCPreviewView.m; path = JCBodymarkerCamera/Classes/JCPreviewView.m; sourceTree = "<group>"; };
-		127750E5BA18116A7E4F757CEFA3E158 /* JCCameraController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCCameraController.m; path = JCBodymarkerCamera/Classes/JCCameraController.m; sourceTree = "<group>"; };
-		15CA264587A38C4231DCDA8AE4A04DBC /* JCPreviewView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCPreviewView.h; path = JCBodymarkerCamera/Classes/JCPreviewView.h; sourceTree = "<group>"; };
+		12C1FE6F32B2F64DA24B8A1DA2601C20 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14DDD13F33341E03A6EF15F3B0540944 /* JCControlsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCControlsView.m; path = JCBodymarkerCamera/Classes/JCControlsView.m; sourceTree = "<group>"; };
+		15936220B009C38A977D0037971F7CB3 /* JCShutterButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCShutterButton.h; path = JCBodymarkerCamera/Classes/JCShutterButton.h; sourceTree = "<group>"; };
 		17A1FBE684A390AF3F427CE9292AA2C9 /* Pods-JCBodymarkerCamera_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCBodymarkerCamera_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		18A0B170DD1F9DED3F6F8637647349ED /* JCCameraLevelView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCCameraLevelView.h; path = JCBodymarkerCamera/Classes/JCCameraLevelView.h; sourceTree = "<group>"; };
 		1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		22D54F28378E0FA8EFAA4A9C8E5131DE /* JCSwitchCameraButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCSwitchCameraButton.h; path = JCBodymarkerCamera/Classes/JCSwitchCameraButton.h; sourceTree = "<group>"; };
-		25C028B3524DB9554162CAD2BE42A21C /* JCDeviceMotionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCDeviceMotionController.m; path = JCBodymarkerCamera/Classes/JCDeviceMotionController.m; sourceTree = "<group>"; };
+		26E9464D9D3683CC7184F543BFFDF818 /* JCCameraViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCCameraViewController.h; path = JCBodymarkerCamera/Classes/JCCameraViewController.h; sourceTree = "<group>"; };
+		271B7000879011C284F585A80E29B9C8 /* JCCameraController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCCameraController.h; path = JCBodymarkerCamera/Classes/JCCameraController.h; sourceTree = "<group>"; };
 		2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		2FF7BDAD2000E987C746E45C353EA86C /* JCBodymarkerCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JCBodymarkerCamera.framework; path = JCBodymarkerCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		30235AE89CB20F49CA4DB847A4A0C4CF /* JCShutterButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCShutterButton.m; path = JCBodymarkerCamera/Classes/JCShutterButton.m; sourceTree = "<group>"; };
 		303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		31ABA8BB76CFDCF882D2218C0EDAB83E /* JCCameraController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCCameraController.h; path = JCBodymarkerCamera/Classes/JCCameraController.h; sourceTree = "<group>"; };
 		36C40591902578632718E317104564A2 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
 		3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		3C4752A820370F2D9CC475DC70BDAE01 /* JCControlsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCControlsView.h; path = JCBodymarkerCamera/Classes/JCControlsView.h; sourceTree = "<group>"; };
-		3C6F1AE08921FB65E8038EAB288C7744 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A1AFB7EFE49359F9AA9F09B47FA070A /* JCBodymarkerCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JCBodymarkerCamera.modulemap; sourceTree = "<group>"; };
+		3BB4038EC1522C52872DB793E807C560 /* JCBodymarkerCamera.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JCBodymarkerCamera.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		40DFBF130E8D0229A1B51B737421F224 /* Pods-JCBodymarkerCamera_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCBodymarkerCamera_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		447D9FBE7A53394DE14A00A273B6ABA8 /* JCBackButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCBackButton.h; path = JCBodymarkerCamera/Classes/JCBackButton.h; sourceTree = "<group>"; };
+		44792049DD141A185A937B95DF5A7478 /* JCCameraViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCCameraViewController.m; path = JCBodymarkerCamera/Classes/JCCameraViewController.m; sourceTree = "<group>"; };
+		456572DEFB5A689E0B97AADA3C06DBA5 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = JCBodymarkerCamera/Assets/Images.xcassets; sourceTree = "<group>"; };
 		4956DF4CA5CC412F17831C70B0DFA15D /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50EFEB7367568DC9B9F0E50E9D685337 /* JCSwitchCameraButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCSwitchCameraButton.m; path = JCBodymarkerCamera/Classes/JCSwitchCameraButton.m; sourceTree = "<group>"; };
 		537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		5C5BCAB66AB198E663569A364019122B /* JCBodymarkerCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JCBodymarkerCamera-dummy.m"; sourceTree = "<group>"; };
+		5BC897066A94B5ADC8612A9656FAD23A /* JCBackButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCBackButton.h; path = JCBodymarkerCamera/Classes/JCBackButton.h; sourceTree = "<group>"; };
 		611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		642AF2332E0EF4B79A6F897C9076688D /* Pods-JCBodymarkerCamera_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCBodymarkerCamera_Tests-umbrella.h"; sourceTree = "<group>"; };
-		643EA3614934F192B7299F0C7449EFC7 /* JCShutterButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCShutterButton.h; path = JCBodymarkerCamera/Classes/JCShutterButton.h; sourceTree = "<group>"; };
 		6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		77EA36790CF4A87EE00F2CBF14B2A279 /* ResourceBundle-JCBodymarkerCamera-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JCBodymarkerCamera-Info.plist"; sourceTree = "<group>"; };
 		77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		79DA0D7A6264DFF61C7C9D2E7A26BEA3 /* JCBodymarkerCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCBodymarkerCamera.xcconfig; sourceTree = "<group>"; };
-		7D5B0045ACA0D9C274E6871AC8C6B5B1 /* JCDeviceMotionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCDeviceMotionController.h; path = JCBodymarkerCamera/Classes/JCDeviceMotionController.h; sourceTree = "<group>"; };
 		7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		7FD8AC824AFD7619AD1D3EC2C78CC0F3 /* JCFlashButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCFlashButton.m; path = JCBodymarkerCamera/Classes/JCFlashButton.m; sourceTree = "<group>"; };
 		818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		8223B4B9D2A5B7C0F33D1BC8949FA9F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83E8FFA84B070D7D23858D6C6407A611 /* JCControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCControlView.h; path = JCBodymarkerCamera/Classes/JCControlView.h; sourceTree = "<group>"; };
-		8BA30025615C6107A59865AA33DC9EA6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		83CB6DDDE450C8BA2CFE877B560508AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8C2F358D374F13D90026C1BC01EA0CC3 /* JCDeviceMotionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCDeviceMotionController.h; path = JCBodymarkerCamera/Classes/JCDeviceMotionController.h; sourceTree = "<group>"; };
+		92AEE372E04BCD710FFC7FE7FE7CEDE1 /* JCBodymarkerCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCBodymarkerCamera-umbrella.h"; sourceTree = "<group>"; };
 		9358AD379706E39B02ECA864E0E4C5E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93E13C1A4CB3FD2CE617FA0476C444E6 /* Pods-JCBodymarkerCamera_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCBodymarkerCamera_Tests-dummy.m"; sourceTree = "<group>"; };
 		96C8DD795ACDA1AAA7F409969BEB4036 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		986CB32629319F7F2256662716334944 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		98A329FDF5FD9DD7AF1FFBB48CF633DE /* JCCameraLevelView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCCameraLevelView.h; path = JCBodymarkerCamera/Classes/JCCameraLevelView.h; sourceTree = "<group>"; };
 		9E0A013A486C8895CEB367A55876C520 /* Pods-JCBodymarkerCamera_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCBodymarkerCamera_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9E7D8908AA90F15C8559E9E15776C03C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9F1B3253D99E536D24C9EEA520B03FB8 /* Pods-JCBodymarkerCamera_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCBodymarkerCamera_Example-umbrella.h"; sourceTree = "<group>"; };
 		9FB4F72AAF499C82F9BB5708BFDBB3A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		A096971C64EDB0C77E8A5E1C1B623D12 /* Pods-JCBodymarkerCamera_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCBodymarkerCamera_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		A6512A882643CF2F844BD276D6D9F77D /* JCBodymarkerCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCBodymarkerCamera-prefix.pch"; sourceTree = "<group>"; };
-		AC31EF2A459EFAAF540D1F46076049C4 /* JCCameraLevelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCCameraLevelView.m; path = JCBodymarkerCamera/Classes/JCCameraLevelView.m; sourceTree = "<group>"; };
 		AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		B13A185FE104B93D111642809012DB1E /* JCDeviceMotionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCDeviceMotionController.m; path = JCBodymarkerCamera/Classes/JCDeviceMotionController.m; sourceTree = "<group>"; };
 		B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		BA9B8E4A194C0D0248F3A22EC1964792 /* JCBodymarkerCameraCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCBodymarkerCameraCommon.h; path = JCBodymarkerCamera/Classes/JCBodymarkerCameraCommon.h; sourceTree = "<group>"; };
+		B7014B2D3881D1FEF8100242D4DFB912 /* JCBodymarkerCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCBodymarkerCamera-prefix.pch"; sourceTree = "<group>"; };
+		B841A00CA19DCA0135728CAA1A1AFC31 /* JCPreviewView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCPreviewView.h; path = JCBodymarkerCamera/Classes/JCPreviewView.h; sourceTree = "<group>"; };
 		BB37638D7C5B81D0898CF927FD628B20 /* Pods-JCBodymarkerCamera_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCBodymarkerCamera_Example-resources.sh"; sourceTree = "<group>"; };
 		BDE197443D84BCDD3F68020517BB1620 /* Pods-JCBodymarkerCamera_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCBodymarkerCamera_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C0446744A33300D8660E4BC5AD7F7338 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C045A5F51A71B80CB9A93C99939952A1 /* Pods-JCBodymarkerCamera_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCBodymarkerCamera_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C222A7081C0ACC16EDEAC70293F589D5 /* Pods-JCBodymarkerCamera_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCBodymarkerCamera_Example-dummy.m"; sourceTree = "<group>"; };
-		C4701949DB6D990A26611DE5ED0F4BC6 /* JCFlashButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCFlashButton.h; path = JCBodymarkerCamera/Classes/JCFlashButton.h; sourceTree = "<group>"; };
 		C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		C57205BF442DAF155F37E04C56873F09 /* JCCameraViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCCameraViewController.h; path = JCBodymarkerCamera/Classes/JCCameraViewController.h; sourceTree = "<group>"; };
 		C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		CB360FDA3529250690BC35B5E539BE20 /* JCBodymarkerCameraCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCBodymarkerCameraCommon.h; path = JCBodymarkerCamera/Classes/JCBodymarkerCameraCommon.h; sourceTree = "<group>"; };
 		CCE8DF4186C72A45BC9423CEE84B933D /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8B901D810556D27E21B9FBCA0CDDC3 /* Pods-JCBodymarkerCamera_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCBodymarkerCamera_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D0BFEF2A73E4FA4537BCB24FD8A66164 /* JCFlashButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCFlashButton.m; path = JCBodymarkerCamera/Classes/JCFlashButton.m; sourceTree = "<group>"; };
+		D06A3209A90C00CD4AE6D71DA4E1E650 /* JCCameraController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCCameraController.m; path = JCBodymarkerCamera/Classes/JCCameraController.m; sourceTree = "<group>"; };
 		D0E25FF58C427ACD74688F41C69C3E8C /* Pods_JCBodymarkerCamera_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JCBodymarkerCamera_Example.framework; path = "Pods-JCBodymarkerCamera_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4150817AB514F0E946925829432AC57 /* JCBackButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCBackButton.m; path = JCBodymarkerCamera/Classes/JCBackButton.m; sourceTree = "<group>"; };
+		D374C2D841942EBD9541CB40113643FB /* JCCameraLevelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCCameraLevelView.m; path = JCBodymarkerCamera/Classes/JCCameraLevelView.m; sourceTree = "<group>"; };
 		D7FE97364ACE25FD9FADCCEBF7EDABCE /* Pods-JCBodymarkerCamera_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JCBodymarkerCamera_Example.modulemap"; sourceTree = "<group>"; };
 		D826E4C67C6EFC6B4F28406FA0708866 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		DD7FA7A25DD101F4467B5961D2C3AF33 /* JCCameraViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCCameraViewController.m; path = JCBodymarkerCamera/Classes/JCCameraViewController.m; sourceTree = "<group>"; };
+		DCFB32270E2F1BCDC50722C93C24D15A /* JCShutterButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCShutterButton.m; path = JCBodymarkerCamera/Classes/JCShutterButton.m; sourceTree = "<group>"; };
+		DE604AA7E2DBC586337F4CF5359BEF30 /* JCBackButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCBackButton.m; path = JCBodymarkerCamera/Classes/JCBackButton.m; sourceTree = "<group>"; };
+		E2B8A359EBD57E694339071BE019CCC3 /* JCFlashButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCFlashButton.h; path = JCBodymarkerCamera/Classes/JCFlashButton.h; sourceTree = "<group>"; };
 		E542CF755F7B47984C5321ACDE3A1482 /* Pods-JCBodymarkerCamera_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCBodymarkerCamera_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E6FD84FBD6F7B4FD7A212BF435053FA3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E77198CEE0CF691E7915471E9F19CD96 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		EA27B61CBF885ADF4570B620E8B3EB6B /* JCBodymarkerCamera.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JCBodymarkerCamera.bundle; path = "JCBodymarkerCamera-JCBodymarkerCamera.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA852B931B3B4F62B7A1AA96B4C00CEF /* Pods_JCBodymarkerCamera_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JCBodymarkerCamera_Tests.framework; path = "Pods-JCBodymarkerCamera_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA9293E7CEA2681E96CC00D133033618 /* JCBodymarkerCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCBodymarkerCamera-umbrella.h"; sourceTree = "<group>"; };
+		EAE3BEE1CBEB789601160D886C2D4D5E /* JCPreviewView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCPreviewView.m; path = JCBodymarkerCamera/Classes/JCPreviewView.m; sourceTree = "<group>"; };
 		ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		EF5683EE05332F1E716612C156F4332D /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = JCBodymarkerCamera/Assets/Images.xcassets; sourceTree = "<group>"; };
-		F0AAEF515654134299F24A1E0912BD09 /* JCBodymarkerCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JCBodymarkerCamera.modulemap; sourceTree = "<group>"; };
+		EF7C80CA34F668294DEC19425FB1B285 /* JCBodymarkerCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCBodymarkerCamera.xcconfig; sourceTree = "<group>"; };
 		F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FACF37DAFFCB6C5D2955E621E78426A8 /* JCBodymarkerCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JCBodymarkerCamera-dummy.m"; sourceTree = "<group>"; };
+		FAE7D6AE980C574E8E57CC196ED20F02 /* JCSwitchCameraButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCSwitchCameraButton.h; path = JCBodymarkerCamera/Classes/JCSwitchCameraButton.h; sourceTree = "<group>"; };
+		FBE492E50929666D2D7E77D8F914CFEF /* JCControlsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCControlsView.h; path = JCBodymarkerCamera/Classes/JCControlsView.h; sourceTree = "<group>"; };
 		FEFC023848BA6CD8AC4373D487242A45 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 		FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		FFD53A26B5B5AB7CCA025C8851254965 /* ResourceBundle-JCBodymarkerCamera-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JCBodymarkerCamera-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7B0D2F4DCCC6A19ED6DD7C997135D7B3 /* Frameworks */ = {
+		035CE844007F93E1413BE20C617BF1C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				968DA98A2F2B5CDC75CA900835C8F3DF /* Foundation.framework in Frameworks */,
+				5BBA7288E5D995C640A31B8B843855C9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417DAFB237983EB683855311CE04EE20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF0ED8D70F1502BA0C3701F700496A3 /* AVFoundation.framework in Frameworks */,
+				1F8E9EA6772023BD29336FF2B3398217 /* CoreMotion.framework in Frameworks */,
+				C6C500C94EB25E3FA0B6994A7B2F8FF7 /* Foundation.framework in Frameworks */,
+				49EBF7A96C697CC7A038224226EA9211 /* Masonry.framework in Frameworks */,
+				3B45C7A51A455F3EE72BB13AB7C14976 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,24 +239,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC53F5B2DEC68BEBC5000F5882B76BBA /* Frameworks */ = {
+		E2B02018614649C7BC7E5D959A7A01CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				588555F6BBF7754B669C8729396E4C09 /* Foundation.framework in Frameworks */,
-				1B6D14D9A60EF9FFF47D762D430F20FF /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ED4C6519EF31AE1424BB0A09384E0A54 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				86097935D85054C7B70E2DA4867CDD27 /* AVFoundation.framework in Frameworks */,
-				32CD0CCC93C55DDEBB69599ADB15048B /* CoreMotion.framework in Frameworks */,
-				1821E85351D22E9F1734B70BF9F7C53C /* Foundation.framework in Frameworks */,
-				563936806C212165251B5E7D971171FC /* Masonry.framework in Frameworks */,
-				DAC6BA97DE8BD2DFE3A9CD021DA6590D /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,19 +257,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C4E61A062E6981DE15D6E327E2583F9 /* Support Files */ = {
+		0486B970724C97CCB092499EE28E3C04 /* JCBodymarkerCamera */ = {
 			isa = PBXGroup;
 			children = (
-				3C6F1AE08921FB65E8038EAB288C7744 /* Info.plist */,
-				F0AAEF515654134299F24A1E0912BD09 /* JCBodymarkerCamera.modulemap */,
-				79DA0D7A6264DFF61C7C9D2E7A26BEA3 /* JCBodymarkerCamera.xcconfig */,
-				5C5BCAB66AB198E663569A364019122B /* JCBodymarkerCamera-dummy.m */,
-				A6512A882643CF2F844BD276D6D9F77D /* JCBodymarkerCamera-prefix.pch */,
-				EA9293E7CEA2681E96CC00D133033618 /* JCBodymarkerCamera-umbrella.h */,
-				77EA36790CF4A87EE00F2CBF14B2A279 /* ResourceBundle-JCBodymarkerCamera-Info.plist */,
+				5BC897066A94B5ADC8612A9656FAD23A /* JCBackButton.h */,
+				DE604AA7E2DBC586337F4CF5359BEF30 /* JCBackButton.m */,
+				CB360FDA3529250690BC35B5E539BE20 /* JCBodymarkerCameraCommon.h */,
+				271B7000879011C284F585A80E29B9C8 /* JCCameraController.h */,
+				D06A3209A90C00CD4AE6D71DA4E1E650 /* JCCameraController.m */,
+				18A0B170DD1F9DED3F6F8637647349ED /* JCCameraLevelView.h */,
+				D374C2D841942EBD9541CB40113643FB /* JCCameraLevelView.m */,
+				26E9464D9D3683CC7184F543BFFDF818 /* JCCameraViewController.h */,
+				44792049DD141A185A937B95DF5A7478 /* JCCameraViewController.m */,
+				FBE492E50929666D2D7E77D8F914CFEF /* JCControlsView.h */,
+				14DDD13F33341E03A6EF15F3B0540944 /* JCControlsView.m */,
+				8C2F358D374F13D90026C1BC01EA0CC3 /* JCDeviceMotionController.h */,
+				B13A185FE104B93D111642809012DB1E /* JCDeviceMotionController.m */,
+				E2B8A359EBD57E694339071BE019CCC3 /* JCFlashButton.h */,
+				7FD8AC824AFD7619AD1D3EC2C78CC0F3 /* JCFlashButton.m */,
+				B841A00CA19DCA0135728CAA1A1AFC31 /* JCPreviewView.h */,
+				EAE3BEE1CBEB789601160D886C2D4D5E /* JCPreviewView.m */,
+				15936220B009C38A977D0037971F7CB3 /* JCShutterButton.h */,
+				DCFB32270E2F1BCDC50722C93C24D15A /* JCShutterButton.m */,
+				FAE7D6AE980C574E8E57CC196ED20F02 /* JCSwitchCameraButton.h */,
+				0940B4BDFC2DA3D22A46771D7B4A92A1 /* JCSwitchCameraButton.m */,
+				8592939EF5D43A5478D00124EE86126B /* Pod */,
+				6D8C158575504C4E63BB59D13A62A030 /* Resources */,
+				A2C4129E302068B5F59B5BD937F22275 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JCBodymarkerCamera";
+			name = JCBodymarkerCamera;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		4EA64604033CD17D1E2BC1D4B5EF2257 /* Pods-JCBodymarkerCamera_Tests */ = {
@@ -292,6 +307,14 @@
 			path = "Target Support Files/Pods-JCBodymarkerCamera_Tests";
 			sourceTree = "<group>";
 		};
+		535B8BCF47D51C248F9F3C660E3EDBBD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0486B970724C97CCB092499EE28E3C04 /* JCBodymarkerCamera */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		59F1338C49E53C80DDCD28E53022035F /* Pods-JCBodymarkerCamera_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -310,24 +333,34 @@
 			path = "Target Support Files/Pods-JCBodymarkerCamera_Example";
 			sourceTree = "<group>";
 		};
-		5B4921E10CC0AD516FB2972E77655887 /* Development Pods */ = {
+		6D8C158575504C4E63BB59D13A62A030 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C185A055AFB2C51338A5D015397EEB52 /* JCBodymarkerCamera */,
+				456572DEFB5A689E0B97AADA3C06DBA5 /* Images.xcassets */,
 			);
-			name = "Development Pods";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				5B4921E10CC0AD516FB2972E77655887 /* Development Pods */,
+				535B8BCF47D51C248F9F3C660E3EDBBD /* Development Pods */,
 				918E94116373AD325E040E1578F66FA2 /* Frameworks */,
 				E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */,
 				D090AAD6317744E7EDCB2194BCBE6AFB /* Products */,
 				A2B6E2A037DEA900E7C21F9B268F77E1 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8592939EF5D43A5478D00124EE86126B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3BB4038EC1522C52872DB793E807C560 /* JCBodymarkerCamera.podspec */,
+				9E7D8908AA90F15C8559E9E15776C03C /* LICENSE */,
+				83CB6DDDE450C8BA2CFE877B560508AD /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		918E94116373AD325E040E1578F66FA2 /* Frameworks */ = {
@@ -337,14 +370,6 @@
 				CDBC735C93EE844827ACC62F3955FAEE /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9695037CA02EBE62001599622C4CF4FF /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				EF5683EE05332F1E716612C156F4332D /* Images.xcassets */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */ = {
@@ -390,37 +415,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C185A055AFB2C51338A5D015397EEB52 /* JCBodymarkerCamera */ = {
+		A2C4129E302068B5F59B5BD937F22275 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				447D9FBE7A53394DE14A00A273B6ABA8 /* JCBackButton.h */,
-				D4150817AB514F0E946925829432AC57 /* JCBackButton.m */,
-				BA9B8E4A194C0D0248F3A22EC1964792 /* JCBodymarkerCameraCommon.h */,
-				31ABA8BB76CFDCF882D2218C0EDAB83E /* JCCameraController.h */,
-				127750E5BA18116A7E4F757CEFA3E158 /* JCCameraController.m */,
-				98A329FDF5FD9DD7AF1FFBB48CF633DE /* JCCameraLevelView.h */,
-				AC31EF2A459EFAAF540D1F46076049C4 /* JCCameraLevelView.m */,
-				C57205BF442DAF155F37E04C56873F09 /* JCCameraViewController.h */,
-				DD7FA7A25DD101F4467B5961D2C3AF33 /* JCCameraViewController.m */,
-				3C4752A820370F2D9CC475DC70BDAE01 /* JCControlsView.h */,
-				092EADA2C0653303078A4A4184144CC2 /* JCControlsView.m */,
-				83E8FFA84B070D7D23858D6C6407A611 /* JCControlView.h */,
-				7D5B0045ACA0D9C274E6871AC8C6B5B1 /* JCDeviceMotionController.h */,
-				25C028B3524DB9554162CAD2BE42A21C /* JCDeviceMotionController.m */,
-				C4701949DB6D990A26611DE5ED0F4BC6 /* JCFlashButton.h */,
-				D0BFEF2A73E4FA4537BCB24FD8A66164 /* JCFlashButton.m */,
-				15CA264587A38C4231DCDA8AE4A04DBC /* JCPreviewView.h */,
-				10D55902B5AAF675B5F31BC607B5BA29 /* JCPreviewView.m */,
-				643EA3614934F192B7299F0C7449EFC7 /* JCShutterButton.h */,
-				30235AE89CB20F49CA4DB847A4A0C4CF /* JCShutterButton.m */,
-				22D54F28378E0FA8EFAA4A9C8E5131DE /* JCSwitchCameraButton.h */,
-				50EFEB7367568DC9B9F0E50E9D685337 /* JCSwitchCameraButton.m */,
-				E54F4470E7F26CCD6C159335DC3DA2BC /* Pod */,
-				9695037CA02EBE62001599622C4CF4FF /* Resources */,
-				1C4E61A062E6981DE15D6E327E2583F9 /* Support Files */,
+				12C1FE6F32B2F64DA24B8A1DA2601C20 /* Info.plist */,
+				3A1AFB7EFE49359F9AA9F09B47FA070A /* JCBodymarkerCamera.modulemap */,
+				EF7C80CA34F668294DEC19425FB1B285 /* JCBodymarkerCamera.xcconfig */,
+				FACF37DAFFCB6C5D2955E621E78426A8 /* JCBodymarkerCamera-dummy.m */,
+				B7014B2D3881D1FEF8100242D4DFB912 /* JCBodymarkerCamera-prefix.pch */,
+				92AEE372E04BCD710FFC7FE7FE7CEDE1 /* JCBodymarkerCamera-umbrella.h */,
+				FFD53A26B5B5AB7CCA025C8851254965 /* ResourceBundle-JCBodymarkerCamera-Info.plist */,
 			);
-			name = JCBodymarkerCamera;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JCBodymarkerCamera";
 			sourceTree = "<group>";
 		};
 		CDBC735C93EE844827ACC62F3955FAEE /* iOS */ = {
@@ -460,16 +467,6 @@
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		E54F4470E7F26CCD6C159335DC3DA2BC /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				108FBCC6E7F56827DB17922E243BBC7B /* JCBodymarkerCamera.podspec */,
-				8BA30025615C6107A59865AA33DC9EA6 /* LICENSE */,
-				E6FD84FBD6F7B4FD7A212BF435053FA3 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -481,46 +478,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0CA709A59A1A4ABC03666E24C65825BF /* Headers */ = {
+		1EEFA4BD537CD9133D90755F040B8863 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAC4D0F7FEFE1DD34A3ADB198999982C /* JCBackButton.h in Headers */,
-				0B819FB2758E06E8A269953388AB843E /* JCBodymarkerCamera-umbrella.h in Headers */,
-				1E3B8AD8BD158E7A7096B17FACF6D7BB /* JCBodymarkerCameraCommon.h in Headers */,
-				CAAAEFAC8E7EEF102AF639E055E28CF0 /* JCCameraController.h in Headers */,
-				606637566CA85B3AD050EC01C4EBA8BB /* JCCameraLevelView.h in Headers */,
-				4D41FD09FA933C31EDB22E64CD732FCE /* JCCameraViewController.h in Headers */,
-				17E15A565AC29DF4C2372D0ED8BF7018 /* JCControlsView.h in Headers */,
-				CA71033014A97C1F248A45C1667C8E85 /* JCControlView.h in Headers */,
-				9C5C88D9162CAA7C2129B0B29A319420 /* JCDeviceMotionController.h in Headers */,
-				F44EC20BE5A9024D37D89D2BE5905BE8 /* JCFlashButton.h in Headers */,
-				9E27D023218014E917A7002578D23CFF /* JCPreviewView.h in Headers */,
-				699F89EEC96E66FE40586CB4370F1D17 /* JCShutterButton.h in Headers */,
-				9C0575032325977FFCA323F7F7F6E6B3 /* JCSwitchCameraButton.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D067E5F664D84992DBDF51CA29E0AAA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48DCCF9DBED6843784D154F8694E2DA5 /* MASCompositeConstraint.h in Headers */,
-				D8C614ED91811B9B85BD06AC925895BF /* MASConstraint+Private.h in Headers */,
-				06B2F9DAF9E10E96BD300A32DC6438DD /* MASConstraint.h in Headers */,
-				6EE70A4189841FCC73D04EAB58EAF701 /* MASConstraintMaker.h in Headers */,
-				3F69C59301D809C43DABAEB8A44B1892 /* MASLayoutConstraint.h in Headers */,
-				C0E39D39E0E24DF448129C7159C5F4A0 /* Masonry-umbrella.h in Headers */,
-				C47E939E9E55767497687FE8B736980B /* Masonry.h in Headers */,
-				8E7A50B7F4F0FACF3FD763B3A5B1A8DA /* MASUtilities.h in Headers */,
-				8AC25CEF27017108628DE24D3C638E31 /* MASViewAttribute.h in Headers */,
-				BF02CBAFDEC882553CEAE84ECFDC57A7 /* MASViewConstraint.h in Headers */,
-				9FFBFEA73834F702CEBEF4ABEAA6A57A /* NSArray+MASAdditions.h in Headers */,
-				7FD6921E75D0833E6620BBF1D84B40D2 /* NSArray+MASShorthandAdditions.h in Headers */,
-				3E758D8B3B88F0FE9CCDAF04DF2D1F3C /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				C9D934F3F2D32756F3C74CC3C4AA49AA /* View+MASAdditions.h in Headers */,
-				EC1A97E4F4C95A783DDBD436FC55A1D6 /* View+MASShorthandAdditions.h in Headers */,
-				D2458F22D3900327845AA2669C7ECBD8 /* ViewController+MASAdditions.h in Headers */,
+				0A53D30A3B364370CC715443F9834CAA /* JCBackButton.h in Headers */,
+				67A4026610321B8E218911B2A328F9B6 /* JCBodymarkerCamera-umbrella.h in Headers */,
+				15926BA0D2F0CA1A1B494C6089872967 /* JCBodymarkerCameraCommon.h in Headers */,
+				B2720FFEA81679C24895D6CFFE08D997 /* JCCameraController.h in Headers */,
+				5C31695E5622CB3B0EC5E40A894B00FD /* JCCameraLevelView.h in Headers */,
+				C7A74A53849315CFD365BCD51A26F83D /* JCCameraViewController.h in Headers */,
+				AF1D1F7372A2124EF3FD1FD226B5EA8B /* JCControlsView.h in Headers */,
+				3CBCDF7B35ADF381C8C22E5DBF95C4D4 /* JCDeviceMotionController.h in Headers */,
+				9DB6C3447EAD1BB57F5208A8169EC384 /* JCFlashButton.h in Headers */,
+				BD9414750A9C359F72F6F754DEE85E3F /* JCPreviewView.h in Headers */,
+				9E9C9F27653079209724B8C9972BCBC8 /* JCShutterButton.h in Headers */,
+				5349122EA288CE8C1EAA6A6DC27A9365 /* JCSwitchCameraButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,26 +513,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		68B2B7689743BCA5B8941C90218DCCA9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065D652EFD56929B95D0EBE33BFF8785 /* MASCompositeConstraint.h in Headers */,
+				E7EFE730FBBC477BAADB44BA03C43CBF /* MASConstraint+Private.h in Headers */,
+				075035F512080F0C572C1DC35E4CE60E /* MASConstraint.h in Headers */,
+				4B4957B7815DD8C6E4F4164E3D27C948 /* MASConstraintMaker.h in Headers */,
+				F6D6B35FEB996BBE5CB86B31DEB2A0C8 /* MASLayoutConstraint.h in Headers */,
+				CB424D7360E0C1DF0D89F43DF141F734 /* Masonry-umbrella.h in Headers */,
+				97D6C0C13260DFA5E195D9E3BBA22DEF /* Masonry.h in Headers */,
+				C5621DBA2466DFE1008C651E68E9C669 /* MASUtilities.h in Headers */,
+				7373E9A0447878E73DD01D8F5D5CD3D8 /* MASViewAttribute.h in Headers */,
+				02CF553764A32B29C032A18C5D72EF32 /* MASViewConstraint.h in Headers */,
+				975208201383957B27C993053A07E3F9 /* NSArray+MASAdditions.h in Headers */,
+				74ADB2002C458096F3DEDF194A479F27 /* NSArray+MASShorthandAdditions.h in Headers */,
+				8F0AD5AED9D3EBD70BE02F09CC0B14D4 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				5BAE819F7545C0D04FACCEECC97E88F6 /* View+MASAdditions.h in Headers */,
+				2935662E3B4425AF96CBC7B49CEB7B7F /* View+MASShorthandAdditions.h in Headers */,
+				5E32EABF70632CFA5D30EC99AA3164AE /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0102C5227DCEF507F71CB8A175EC25F8 /* JCBodymarkerCamera-JCBodymarkerCamera */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 56205BF5EC2FD8FC5CA2DD9C2F20726E /* Build configuration list for PBXNativeTarget "JCBodymarkerCamera-JCBodymarkerCamera" */;
-			buildPhases = (
-				9CF7EAB87655859AAFDF3E52CC1ADA7C /* Sources */,
-				7B0D2F4DCCC6A19ED6DD7C997135D7B3 /* Frameworks */,
-				FCC2F267769C54E374370649DAA5D583 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "JCBodymarkerCamera-JCBodymarkerCamera";
-			productName = "JCBodymarkerCamera-JCBodymarkerCamera";
-			productReference = EA27B61CBF885ADF4570B620E8B3EB6B /* JCBodymarkerCamera.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		0CAD9A7DE5F10F4A1CA5260B3BDDF2C6 /* Pods-JCBodymarkerCamera_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AE9494CCCF2831C32A27EDC80642FED /* Build configuration list for PBXNativeTarget "Pods-JCBodymarkerCamera_Tests" */;
@@ -577,26 +556,6 @@
 			name = "Pods-JCBodymarkerCamera_Tests";
 			productName = "Pods-JCBodymarkerCamera_Tests";
 			productReference = EA852B931B3B4F62B7A1AA96B4C00CEF /* Pods_JCBodymarkerCamera_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		22923F7ED29587E775DD2EAF71FAF77C /* JCBodymarkerCamera */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 56BC5E58D8BD3263CC74B7D818DB2A8E /* Build configuration list for PBXNativeTarget "JCBodymarkerCamera" */;
-			buildPhases = (
-				0CA709A59A1A4ABC03666E24C65825BF /* Headers */,
-				05761DA14F9C9FA3946A6BFD43BB9294 /* Sources */,
-				ED4C6519EF31AE1424BB0A09384E0A54 /* Frameworks */,
-				3A11C07BA424686F9FC363134FA09BB8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7D5F64E10C31795897C280164662A19F /* PBXTargetDependency */,
-				121BB6A1E3F3C7C12F14387C013BBCD8 /* PBXTargetDependency */,
-			);
-			name = JCBodymarkerCamera;
-			productName = JCBodymarkerCamera;
-			productReference = 2FF7BDAD2000E987C746E45C353EA86C /* JCBodymarkerCamera.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4F4A1DB7F7DB7E8019C05DFBA45EFF62 /* Pods-JCBodymarkerCamera_Example */ = {
@@ -619,14 +578,51 @@
 			productReference = D0E25FF58C427ACD74688F41C69C3E8C /* Pods_JCBodymarkerCamera_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CE2445C7456C5E73DF83FF9238E0FF5E /* Masonry */ = {
+		5B25F9D3C3C5E502C64FDED397641411 /* JCBodymarkerCamera-JCBodymarkerCamera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EFB1707D321D0E4CCEC8C38924BE80DE /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildConfigurationList = 90AEB2006BC8310ECD15FC32CBDDE8A5 /* Build configuration list for PBXNativeTarget "JCBodymarkerCamera-JCBodymarkerCamera" */;
 			buildPhases = (
-				2D067E5F664D84992DBDF51CA29E0AAA /* Headers */,
-				C363B4F8604DA079B25E0462CE709899 /* Sources */,
-				BC53F5B2DEC68BEBC5000F5882B76BBA /* Frameworks */,
-				CB122EE124019DA5CFEE35F1A035AFC6 /* Resources */,
+				EB1DD72A68A0F42A6574CD6F8E63F13B /* Sources */,
+				E2B02018614649C7BC7E5D959A7A01CC /* Frameworks */,
+				1417BC0713A3ABEA0E74B347B15A0548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JCBodymarkerCamera-JCBodymarkerCamera";
+			productName = "JCBodymarkerCamera-JCBodymarkerCamera";
+			productReference = EA27B61CBF885ADF4570B620E8B3EB6B /* JCBodymarkerCamera.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5FEFA572A6AF69F2911AA438F2F76CC6 /* JCBodymarkerCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B062C869E2E7B72AD5BE65F087980DF6 /* Build configuration list for PBXNativeTarget "JCBodymarkerCamera" */;
+			buildPhases = (
+				1EEFA4BD537CD9133D90755F040B8863 /* Headers */,
+				03AAAE54D843618F0B1CDDB1EEA8C5BD /* Sources */,
+				417DAFB237983EB683855311CE04EE20 /* Frameworks */,
+				346943BAFFE5B057C8FE22A342B1CC22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				995B7566AFAD7FD16FC6D23E72F90E0B /* PBXTargetDependency */,
+				0D0B39B4B6F0C5289C7124F576238B2F /* PBXTargetDependency */,
+			);
+			name = JCBodymarkerCamera;
+			productName = JCBodymarkerCamera;
+			productReference = 2FF7BDAD2000E987C746E45C353EA86C /* JCBodymarkerCamera.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F11A70710357061B1E62B9C7466EA215 /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B8EC2F3313438143E8E9C71EA94F197 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				68B2B7689743BCA5B8941C90218DCCA9 /* Headers */,
+				D052644B148A6C8D2D7A0332E8F35601 /* Sources */,
+				035CE844007F93E1413BE20C617BF1C9 /* Frameworks */,
+				2457EC408BA8DC904ACCDE102FDF851E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -658,9 +654,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				22923F7ED29587E775DD2EAF71FAF77C /* JCBodymarkerCamera */,
-				0102C5227DCEF507F71CB8A175EC25F8 /* JCBodymarkerCamera-JCBodymarkerCamera */,
-				CE2445C7456C5E73DF83FF9238E0FF5E /* Masonry */,
+				5FEFA572A6AF69F2911AA438F2F76CC6 /* JCBodymarkerCamera */,
+				5B25F9D3C3C5E502C64FDED397641411 /* JCBodymarkerCamera-JCBodymarkerCamera */,
+				F11A70710357061B1E62B9C7466EA215 /* Masonry */,
 				4F4A1DB7F7DB7E8019C05DFBA45EFF62 /* Pods-JCBodymarkerCamera_Example */,
 				0CAD9A7DE5F10F4A1CA5260B3BDDF2C6 /* Pods-JCBodymarkerCamera_Tests */,
 			);
@@ -668,11 +664,26 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3A11C07BA424686F9FC363134FA09BB8 /* Resources */ = {
+		1417BC0713A3ABEA0E74B347B15A0548 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B9C20D2A4E17D9BEE47817711F83C20 /* JCBodymarkerCamera.bundle in Resources */,
+				994E8407F9C78BF9744A7853AE73CC89 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2457EC408BA8DC904ACCDE102FDF851E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		346943BAFFE5B057C8FE22A342B1CC22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC448FB83B8DE4A8D0D7E862D5B7377 /* JCBodymarkerCamera.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -690,64 +701,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB122EE124019DA5CFEE35F1A035AFC6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FCC2F267769C54E374370649DAA5D583 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				126CCFB9BABD532D9D09AD0BEF56A75A /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05761DA14F9C9FA3946A6BFD43BB9294 /* Sources */ = {
+		03AAAE54D843618F0B1CDDB1EEA8C5BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D39F520B43BE0D5CF97067594202967 /* JCBackButton.m in Sources */,
-				F47523E35605176F428EE4FAB483CB16 /* JCBodymarkerCamera-dummy.m in Sources */,
-				23584F0A253EEE4A30D6F5D2AED53520 /* JCCameraController.m in Sources */,
-				FCD4BE7052ED32C207802472C2DBFFEF /* JCCameraLevelView.m in Sources */,
-				1DE4AC3C67D758736D09046DBFB949E7 /* JCCameraViewController.m in Sources */,
-				64399C50A2514D6D8B9651B4CE9ABA92 /* JCControlsView.m in Sources */,
-				8986AE49BB1A363B38C96C5E6A7564B2 /* JCDeviceMotionController.m in Sources */,
-				D794CA54BC29B82F8DFB53B76C9A77F2 /* JCFlashButton.m in Sources */,
-				D9649EF538D4FFA575C2600A8D5919E6 /* JCPreviewView.m in Sources */,
-				BA61468D2E3FF9C2FB208422D236BF99 /* JCShutterButton.m in Sources */,
-				1C1758AC8ECA8CCA61F54B2FF2F5F45C /* JCSwitchCameraButton.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9CF7EAB87655859AAFDF3E52CC1ADA7C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C363B4F8604DA079B25E0462CE709899 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3476E0D85DA1459E953CB5C09377C7B6 /* MASCompositeConstraint.m in Sources */,
-				82C86CA1F0EFE87A68872FED6DC99D03 /* MASConstraint.m in Sources */,
-				581611F180C10ECC3CD6E2BBCC5F3F3B /* MASConstraintMaker.m in Sources */,
-				C46DEA4314C35BE3B8CE4E7BCB674B76 /* MASLayoutConstraint.m in Sources */,
-				EC81D0818AE4E1686BE97ACEF3409B70 /* Masonry-dummy.m in Sources */,
-				227055B73668B99AC1EF20D682BF1780 /* MASViewAttribute.m in Sources */,
-				4DA4C794A341366B7BC40BFB13B507CA /* MASViewConstraint.m in Sources */,
-				FC4CE6BCA6F6F9449587C4AC6D6C3CED /* NSArray+MASAdditions.m in Sources */,
-				FC2414383FC6026894122A7B456AFBCE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				8F1333F50DAEF1D6AEF3F369BBAAAACE /* View+MASAdditions.m in Sources */,
-				762831B8F4F34F43DB3C5ABBCD0D0891 /* ViewController+MASAdditions.m in Sources */,
+				71DBE3B63399583088CAA87FC8D4D8EC /* JCBackButton.m in Sources */,
+				A8BDFED6B8FB62D3AD585B7F6FD53E3F /* JCBodymarkerCamera-dummy.m in Sources */,
+				2CFD41BF5FD8D5293CC50FD16F27A251 /* JCCameraController.m in Sources */,
+				1C2F8EB889DD4F1BA37ECBC6C15DAB2A /* JCCameraLevelView.m in Sources */,
+				329BDD6B2797F2B7353890930F88771B /* JCCameraViewController.m in Sources */,
+				A6487E6D0610839991645F564E1F4F47 /* JCControlsView.m in Sources */,
+				B3DF1D6717A18B23C5111558D31B8894 /* JCDeviceMotionController.m in Sources */,
+				5883E7567C0206687E86DA1D2FD17827 /* JCFlashButton.m in Sources */,
+				DD177045242060E27F06DCDB060E2286 /* JCPreviewView.m in Sources */,
+				78FB19FF48072041011FC85318A1640B /* JCShutterButton.m in Sources */,
+				6D6B5EB36D8D012F9AE58C648ABFFC3B /* JCSwitchCameraButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -759,11 +730,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D052644B148A6C8D2D7A0332E8F35601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F7F92D5365F1D7492FF9D02AD6E300 /* MASCompositeConstraint.m in Sources */,
+				7058E47E419B3563247A5E11EC2CA43F /* MASConstraint.m in Sources */,
+				89048BDA8167E82BFD1F52FDAEEE4984 /* MASConstraintMaker.m in Sources */,
+				736D327F8EE636CE84E347398CA271D1 /* MASLayoutConstraint.m in Sources */,
+				93DC40EB5767717ECC65E60C57641AB6 /* Masonry-dummy.m in Sources */,
+				2EBCB70AC7739CED7F98871A496B9D99 /* MASViewAttribute.m in Sources */,
+				DD5F6A9AC03A68D6B7626CA1B64215E3 /* MASViewConstraint.m in Sources */,
+				F34EC02DE06162EB180EEC6FCDC8DC2D /* NSArray+MASAdditions.m in Sources */,
+				44CF5AFFCD7DF371DF0BB19525424BE0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				FC55208370BAB95028CE8D702C78226C /* View+MASAdditions.m in Sources */,
+				D8153ACC513F51345CC94404FD6798AD /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E1D52A829F9586356F9E844878B3DA7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DCD574486BA262E03D8CBA9DEB4FE52A /* Pods-JCBodymarkerCamera_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1DD72A68A0F42A6574CD6F8E63F13B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -773,14 +769,14 @@
 		051C09A1E1D7A2CC97576ABE68A1E2B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
-			target = CE2445C7456C5E73DF83FF9238E0FF5E /* Masonry */;
+			target = F11A70710357061B1E62B9C7466EA215 /* Masonry */;
 			targetProxy = CEC946D127CB67881C73B58F6C35F0F2 /* PBXContainerItemProxy */;
 		};
-		121BB6A1E3F3C7C12F14387C013BBCD8 /* PBXTargetDependency */ = {
+		0D0B39B4B6F0C5289C7124F576238B2F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
-			target = CE2445C7456C5E73DF83FF9238E0FF5E /* Masonry */;
-			targetProxy = 72963DC3A16CEEFB7B633896ACBF2D15 /* PBXContainerItemProxy */;
+			target = F11A70710357061B1E62B9C7466EA215 /* Masonry */;
+			targetProxy = 1821B78EEB671CCBAC32C4554BB71C38 /* PBXContainerItemProxy */;
 		};
 		1D034A502241F4D7BCFC29AEDA20FE43 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -791,18 +787,49 @@
 		51306A7D041BDA400F59BF71A56773C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JCBodymarkerCamera;
-			target = 22923F7ED29587E775DD2EAF71FAF77C /* JCBodymarkerCamera */;
+			target = 5FEFA572A6AF69F2911AA438F2F76CC6 /* JCBodymarkerCamera */;
 			targetProxy = 120980E3901FC45F87F958807D57D46D /* PBXContainerItemProxy */;
 		};
-		7D5F64E10C31795897C280164662A19F /* PBXTargetDependency */ = {
+		995B7566AFAD7FD16FC6D23E72F90E0B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "JCBodymarkerCamera-JCBodymarkerCamera";
-			target = 0102C5227DCEF507F71CB8A175EC25F8 /* JCBodymarkerCamera-JCBodymarkerCamera */;
-			targetProxy = 248A85A2735B165343CC943D31E7876E /* PBXContainerItemProxy */;
+			target = 5B25F9D3C3C5E502C64FDED397641411 /* JCBodymarkerCamera-JCBodymarkerCamera */;
+			targetProxy = FA38A8F2FB0319BE3BAB35FCEB0FBD00 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0D92D8E03421F245B4BF13CF8567D512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF7C80CA34F668294DEC19425FB1B285 /* JCBodymarkerCamera.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JCBodymarkerCamera/JCBodymarkerCamera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JCBodymarkerCamera/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JCBodymarkerCamera/JCBodymarkerCamera.modulemap";
+				PRODUCT_MODULE_NAME = JCBodymarkerCamera;
+				PRODUCT_NAME = JCBodymarkerCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		199921CC4E3C65EEC7F3ED6FF10510AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C045A5F51A71B80CB9A93C99939952A1 /* Pods-JCBodymarkerCamera_Tests.debug.xcconfig */;
@@ -834,6 +861,22 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1FDF1BA35698E77E28D64656A7B1D41D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF7C80CA34F668294DEC19425FB1B285 /* JCBodymarkerCamera.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JCBodymarkerCamera";
+				INFOPLIST_FILE = "Target Support Files/JCBodymarkerCamera/ResourceBundle-JCBodymarkerCamera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PRODUCT_NAME = JCBodymarkerCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -933,53 +976,6 @@
 			};
 			name = Debug;
 		};
-		6C069135978895F0C028F64901B5386D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79DA0D7A6264DFF61C7C9D2E7A26BEA3 /* JCBodymarkerCamera.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JCBodymarkerCamera";
-				INFOPLIST_FILE = "Target Support Files/JCBodymarkerCamera/ResourceBundle-JCBodymarkerCamera-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				PRODUCT_NAME = JCBodymarkerCamera;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		6F4D9730AD66F24D137FDFEE731188FB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79DA0D7A6264DFF61C7C9D2E7A26BEA3 /* JCBodymarkerCamera.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JCBodymarkerCamera/JCBodymarkerCamera-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JCBodymarkerCamera/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JCBodymarkerCamera/JCBodymarkerCamera.modulemap";
-				PRODUCT_MODULE_NAME = JCBodymarkerCamera;
-				PRODUCT_NAME = JCBodymarkerCamera;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		8716550BC11F7BEA523AD4BDBA876D5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1046,39 +1042,9 @@
 			};
 			name = Debug;
 		};
-		95DA3274DDC8CACDF8CF006917825103 /* Debug */ = {
+		ABFA05D4B6FE6AEA3BE81A3EE3257AA5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B3294E5F79E22279B10A9651F3D9CC1A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79DA0D7A6264DFF61C7C9D2E7A26BEA3 /* JCBodymarkerCamera.xcconfig */;
+			baseConfigurationReference = EF7C80CA34F668294DEC19425FB1B285 /* JCBodymarkerCamera.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1108,9 +1074,9 @@
 			};
 			name = Release;
 		};
-		C7A73BF7AF9CDE4169E338A835AE5B4D /* Release */ = {
+		C0E205A74A1DBEB1E2958E236B9639B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79DA0D7A6264DFF61C7C9D2E7A26BEA3 /* JCBodymarkerCamera.xcconfig */;
+			baseConfigurationReference = EF7C80CA34F668294DEC19425FB1B285 /* JCBodymarkerCamera.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JCBodymarkerCamera";
@@ -1124,7 +1090,7 @@
 			};
 			name = Release;
 		};
-		C7E3718798CD93C22820365193AAF2AF /* Release */ = {
+		C3377ABBC69E180A3B62A3656D32618F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */;
 			buildSettings = {
@@ -1149,11 +1115,10 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		CA34E6B1EF187C16386BFE002E00E9BA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1183,6 +1148,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DDDCA4B779832206EC660DCB1165D457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1246,20 +1242,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56205BF5EC2FD8FC5CA2DD9C2F20726E /* Build configuration list for PBXNativeTarget "JCBodymarkerCamera-JCBodymarkerCamera" */ = {
+		90AEB2006BC8310ECD15FC32CBDDE8A5 /* Build configuration list for PBXNativeTarget "JCBodymarkerCamera-JCBodymarkerCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C069135978895F0C028F64901B5386D /* Debug */,
-				C7A73BF7AF9CDE4169E338A835AE5B4D /* Release */,
+				1FDF1BA35698E77E28D64656A7B1D41D /* Debug */,
+				C0E205A74A1DBEB1E2958E236B9639B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56BC5E58D8BD3263CC74B7D818DB2A8E /* Build configuration list for PBXNativeTarget "JCBodymarkerCamera" */ = {
+		9B8EC2F3313438143E8E9C71EA94F197 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F4D9730AD66F24D137FDFEE731188FB /* Debug */,
-				B3294E5F79E22279B10A9651F3D9CC1A /* Release */,
+				C3377ABBC69E180A3B62A3656D32618F /* Debug */,
+				DDDCA4B779832206EC660DCB1165D457 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1273,11 +1269,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EFB1707D321D0E4CCEC8C38924BE80DE /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+		B062C869E2E7B72AD5BE65F087980DF6 /* Build configuration list for PBXNativeTarget "JCBodymarkerCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				95DA3274DDC8CACDF8CF006917825103 /* Debug */,
-				C7E3718798CD93C22820365193AAF2AF /* Release */,
+				0D92D8E03421F245B4BF13CF8567D512 /* Debug */,
+				ABFA05D4B6FE6AEA3BE81A3EE3257AA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

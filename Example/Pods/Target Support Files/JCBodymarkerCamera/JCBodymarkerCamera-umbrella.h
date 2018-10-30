@@ -16,7 +16,6 @@
 #import "JCCameraLevelView.h"
 #import "JCCameraViewController.h"
 #import "JCControlsView.h"
-#import "JCControlView.h"
 #import "JCDeviceMotionController.h"
 #import "JCFlashButton.h"
 #import "JCPreviewView.h"
