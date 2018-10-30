@@ -63,7 +63,7 @@ JCCameraViewController *cameraViewController = [[JCCameraViewController alloc] i
 cameraViewController.cameraOption = CameraOptionRearCamera;
 [self presentViewController:cameraViewController animated:YES completion:nil];
 ```
-### Get process your image data. Create completion blocks when you init a camera view controller.
+#### Get process your image data. Create completion blocks when you init a camera view controller.
 ```objc
 
 cameraViewController.successedCompletion = ^(NSData *imageData) {
@@ -75,6 +75,10 @@ cameraViewController.failedCompletion = ^(NSError *error) {
     // pop error message
 };
 ```
+#### Don't forget adding camera usage
+
+NSCameraUsageDescription
+
 
 ## Dependency
 
