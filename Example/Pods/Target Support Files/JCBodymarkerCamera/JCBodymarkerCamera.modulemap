@@ -1,0 +1,6 @@
+framework module JCBodymarkerCamera {
+  umbrella header "JCBodymarkerCamera-umbrella.h"
+
+  export *
+  module * { export * }
+}

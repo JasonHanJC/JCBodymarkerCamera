@@ -1,42 +1,25 @@
-#
-# Be sure to run `pod lib lint JCBodymarkerCamera.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'JCBodymarkerCamera'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JCBodymarkerCamera.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'JCBodymarkerCamera is a special camera for body measurement.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+JCBodymarkerCamera is a special camera for body measurement. It is built with Apple's AVFoundation framework. The camera main view has a bodymarker for you to pose your body and it has a camera vertical level indicator for you to correct your device vertical angle.
                        DESC
 
   s.homepage         = 'https://github.com/JasonHan1990/JCBodymarkerCamera'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'JasonHan1990' => 'namrie1990@gmail.com' }
   s.source           = { :git => 'https://github.com/JasonHan1990/JCBodymarkerCamera.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.2'
 
   s.source_files = 'JCBodymarkerCamera/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'JCBodymarkerCamera' => ['JCBodymarkerCamera/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'JCBodymarkerCamera' => ['JCBodymarkerCamera/Assets/Images.xcassets']
+  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'AVFoundation', 'CoreMotion'
+  s.dependency 'Masonry', '~> 1.1.0'
 end

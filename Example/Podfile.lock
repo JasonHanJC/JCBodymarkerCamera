@@ -1,0 +1,23 @@
+PODS:
+  - JCBodymarkerCamera (0.1.0):
+    - Masonry (~> 1.1.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - JCBodymarkerCamera (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  JCBodymarkerCamera:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JCBodymarkerCamera: c531a6ff80e35bc1773a2203dd0d0b92529f59c3
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: a61c951a53888d995051aaa35f79b62641d1c920
+
+COCOAPODS: 1.5.3
