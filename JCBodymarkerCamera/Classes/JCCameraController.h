@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol JCCameraControllerDelegate <NSObject>
 
 - (void)deviceConfigurationFailedWithError:(NSError *)error;
+
+- (void)mediaCaptureBegan;
 - (void)mediaCaptureFailedWithError:(NSError *)error;
 - (void)mediaCaptureSuccessWithImageData:(NSData *)imageData;
 

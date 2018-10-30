@@ -310,6 +310,12 @@
 }
 
 - (void)captureStillImage {
+    if (![self.captureSession isRunning]) {
+        return;
+    }
+    if ([self.delegate respondsToSelector:@selector(mediaCaptureBegan)]) {
+        [self.delegate mediaCaptureBegan];
+    }
     AVCapturePhotoSettings *uniqueSetting = [AVCapturePhotoSettings photoSettingsFromPhotoSettings:self.outputSettings];
     // final check the camera has flash
     if (![[self activeCamera] hasFlash]) {
@@ -321,7 +327,14 @@
 #pragma mark - AVCapturePhotoCaptureDelegate
 - (void)captureOutput:(AVCapturePhotoOutput *)captureOutput didFinishProcessingPhotoSampleBuffer:(nullable CMSampleBufferRef)photoSampleBuffer previewPhotoSampleBuffer:(nullable CMSampleBufferRef)previewPhotoSampleBuffer resolvedSettings:(AVCaptureResolvedPhotoSettings *)resolvedSettings bracketSettings:(nullable AVCaptureBracketedStillImageSettings *)bracketSettings error:(nullable NSError *)error {
     
-    NSData *data = [AVCapturePhotoOutput JPEGPhotoDataRepresentationForJPEGSampleBuffer:photoSampleBuffer previewPhotoSampleBuffer:previewPhotoSampleBuffer];
+    if (photoSampleBuffer == nil || error != nil) {
+        if ([self.delegate respondsToSelector:@selector(mediaCaptureFailedWithError:)]) {
+            [self.delegate mediaCaptureFailedWithError:error];
+        }
+        return;
+    }
+    
+    NSData *data = [AVCapturePhotoOutput JPEGPhotoDataRepresentationForJPEGSampleBuffer:photoSampleBuffer previewPhotoSampleBuffer:nil];
 
     if ([self.delegate respondsToSelector:@selector(mediaCaptureSuccessWithImageData:)]) {
         [self.delegate mediaCaptureSuccessWithImageData:data];

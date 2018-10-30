@@ -201,6 +201,7 @@
 }
 
 - (void)shutterButtonPressed:(JCShutterButton *)sender {
+    if (![self.cameraController.captureSession isRunning]) return;
     switch (sender.shutterButtonType) {
         case JCShutterButtonTypeNormal:
             [self.previewView flashScreen];
@@ -242,19 +243,19 @@
     }
 }
 
-- (void)mediaCaptureFailedWithError:(NSError *)error {
-    if (self.failedCompletion) {
-        self.failedCompletion(error);
-    }
+- (void)mediaCaptureBegan {
+    [self.controlsView.shutterButton setUserInteractionEnabled:NO];
 }
 
-- (void)libraryWriteFailedWithError:(NSError *)error {
+- (void)mediaCaptureFailedWithError:(NSError *)error {
+    [self.controlsView.shutterButton setUserInteractionEnabled:YES];
     if (self.failedCompletion) {
         self.failedCompletion(error);
     }
 }
 
 - (void)mediaCaptureSuccessWithImageData:(NSData *)imageData {
+    [self.controlsView.shutterButton setUserInteractionEnabled:YES];
     if (self.successedCompletion) {
         self.successedCompletion(imageData);
     }
